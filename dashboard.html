@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .story {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin-right: 10px;
+            overflow-x: hidden
+        }
+
+        #image-container {
+            border: 3px solid red;
+            border-radius: 50%;
+            padding: 5px;
+            /* Adjust the padding for the space between the border and the image */
+        }
+
+        .story img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        .instagram-story {
+            display: flex;
+            overflow-x: auto;
+            margin-left: 120px;
+        }
+
+        .instagram-story .story {
+            margin-right: 20px;
+            /* Add spacing between stories */
+        }
+
+        .instagram-story p {
+            margin: 5px;
+            font-size: 12px;
+            color: #000;
+            margin-left: 9px;
+        }
+        .story img:hover{
+            transition: 0.1s;
+            width: 83px;
+            height: 83px;
+        }
+    </style>
+</head>
+
+<body style="background-color:whitesmoke;">
+
+    <!-- Instagram Navbar -->
+    <nav class="navbar navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMaJr0B21N0SLLrMF7rpIEc51oXfIxOTe4ZQ&usqp=CAU"
+                    alt="" width="100%" height="30px" class="d-inline-block align-text-top">
+            </a>
+
+            <!--Search bar-->
+            <form class="form-inline" style="width: 350px;">
+                <div class="input-group">
+                    <span class="input-group-text" style="background-color: rgba(128, 128, 128, 0.142);">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #6d737e88;"></i>
+                    </span>
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search"
+                        style="background-color: rgba(128, 128, 128, 0.142);">
+                </div>
+            </form>
+
+            <!-- Icons in the navbar -->
+            <div class="d-flex align-items-center">
+                <button class="btn btn-outline-none"><i class="fa-solid fa-house fa-xl"
+                        style="color: #121212;"></i></button>
+                <button class="btn btn-outline-none"><i class="fa-brands fa-facebook-messenger fa-xl"></i></button>
+                <button class="btn btn-outline-none"><i class="fa-solid fa-square-plus fa-xl"></i></button>
+                <button class="btn btn-outline-none"><i class="fa-solid fa-compass fa-xl"></i></button>
+                <button class="btn btn-outline-none"><i class="fa-regular fa-heart fa-xl"></i></button>
+                <button class="btn btn-outline-none">
+                    <a class="navbar-brand" href="#">
+                        <img style="width: 70px;"
+                            src="https://a.storyblok.com/f/191576/1200x800/215e59568f/round_profil_picture_after_.webp"
+                            alt="" class="d-inline-block align-text-top rounded-pill">
+                    </a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Instagram stories -->
+    <div class="instagram-story shadow-sm mt-5" style="margin-right:100px; border-radius: 5px;">
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://atd-blog.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/04/16142821/cool-profile-pictures-for-girls-9.webp"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+                <p>mincapty...</p>
+        </div>
+
+        <!-- Story 1 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>alex rach...</p>
+        </div>
+
+        <!-- Story 2 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://media.istockphoto.com/id/1317804578/photo/one-businesswoman-headshot-smiling-at-the-camera.jpg?s=612x612&w=0&k=20&c=EqR2Lffp4tkIYzpqYh8aYIPRr-gmZliRHRxcQC5yylY="
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container"
+                    style="border: 3px solid rgb(162, 244, 40);">
+            </a>
+            <p>sara_vity...</p>
+        </div>
+
+        <!-- Story 3 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/street-portrait-of-a-young-man-using-mobile-phone-royalty-free-image-1018047498-1564431457.jpg?crop=0.668xw:1.00xh;0.226xw,0&resize=640:*"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>cafe_captur...</p>
+        </div>
+
+        <!-- Story 4 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC0-cIXkx0fYryHlHeqOof_sPxHtpCAihtbDvJVsosALoSl0inbx9Ykp4W_l4b2kSYL_A&usqp=CAU"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>cafe_captur...</p>
+        </div>
+
+        <!-- Story 5 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>cafe_captur...</p>
+        </div>
+
+        <!-- Story 6 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://t4.ftcdn.net/jpg/03/70/29/03/360_F_370290384_K0VEqnA7kgxmabRn0QXiyBCbCyPGWNeh.jpg"
+                    alt="" class="d-inline-block mt-4 rounded-pill" style="border: 3px solid rgb(162, 244, 40);"
+                    id="image-container">
+            </a>
+            <p>cafe_captur...</p>
+        </div>
+
+        <!-- Story 7 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>alex rach...</p>
+        </div>
+
+        <!-- Story 8 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM="
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>Aan_marti...</p>
+        </div>
+
+        <!-- Story 9 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://t3.ftcdn.net/jpg/05/52/15/68/360_F_552156839_hQTIBjd35zljkgSz65pDaUUSyKK53DtZ.jpg"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>Gienna_benn...</p>
+        </div>
+
+        <!-- Story 10 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0jMx-4uPy-3ZVPDuKc2MEILL4yer_p0P13cI7NT7c-nBr8yf-787WGlIKXcS3yYf-4A4&usqp=CAU"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>Joyful_lif...</p>
+        </div>
+
+        <!-- Story 11 -->
+        <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>Super_boss57...</p>
+        </div>
+
+        <!-- Story 12 -->
+        <!-- <div class="story">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgZHNc5teEcC0sUjjLOVaUq43Gbd2Rn2GoLx1bTbGmO7Bm3r8z4C5eD0rYNy5phyxNuFM&usqp=CAU"
+                    alt="" class="d-inline-block mt-4 rounded-pill" id="image-container">
+            </a>
+            <p>deor_otest...</p>
+        </div> -->
+    </div>
+
+    <!-- Instagram post -->
+    <!-- post 1 -->
+    <div class="card" style="margin-right:300px; border-radius: 5px;margin-left: 300px; margin-top: 10px;">
+        <div class="card-body">
+            <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705708800&semt=ais"
+                    alt="" width="40" height="40" class="rounded-pill">
+            </a>
+            <span
+                style="font-weight: 500; margin-left: 10px;font-size: 15px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                Mathew_Alexander</span>
+            <!-- <p class="card-text" style="margin-left: 50px; font-size:small;">Toronto, Canada</p> -->
+        </div>
+        <img class="card-img-bottom"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg"
+            alt="Card image" style="width:100%">
+        <div class="card-text mt-2">
+            <i class="fa-regular fa-heart fa-lg"style="margin-left: 10px;"></i>
+            <i class="fa-regular fa-comment fa-lg" style="color: black; margin-left: 10px;"></i>
+            <i class="fa-solid fa-location-arrow fa-lg" style="color: #000000;margin-left: 9px;"></i>
+            <br>
+            <h4 style="font-size: small;margin-left: 10px;margin-top: 10px;">234 likes</h4>
+            <h4 style="font-size: small;margin-top: 10px;margin-left: 10px;"><strong>Mathew_Alexander</strong> <span
+                    style="font-size: small;font-weight: 400;">Beauty.</span></h4>
+            <p
+                style="margin-left:10px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: small;">
+                View all 269 comments <br>
+                12min ago</p>
+        </div>
+
+
+        <!-- Post 2 -->
+        <div class="card-body">
+            <a class="navbar-brand" href="#">
+                <img src="https://mars.nasa.gov/people/images/profile/2x2/mwsmith-23258-profile-hi_20BFFA1F-F1AD-414F-8550C9E61A6CB3B6.jpg"
+                    alt="" width="40" height="40" class="rounded-pill">
+            </a>
+            <span
+                style="font-weight: 500; margin-left: 10px;font-size: 15px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                Code_educator12</span>
+            <!-- <p class="card-text" style="margin-left: 50px; font-size:small;">Toronto, Canada</p> -->
+        </div>
+        <img class="card-img-bottom"
+            src="https://assets-global.website-files.com/6344c9cef89d6f2270a38908/643c214571060a7aa42ab362_00%20Staff%20Software%20Engineer.webp"
+            alt="Card image" style="width:100%">
+        <div class="card-text mt-2">
+            <i class="fa-regular fa-heart fa-lg"style="margin-left: 10px;"></i>
+            <i class="fa-regular fa-comment fa-lg" style="color: black; margin-left: 10px;"></i>
+            <i class="fa-solid fa-location-arrow fa-lg" style="color: #000000;margin-left: 9px;"></i>
+            <br>
+            <h4 style="font-size: small;margin-left: 10px;margin-top: 10px;">1045,98 likes</h4>
+            <h4 style="font-size: small;margin-top: 10px;margin-left: 10px;"><strong>Code_educator12 </strong><span
+                    style="font-size: small;font-weight: 400;">Make it work, make it right, make it fast.</span></h4>
+            <p
+                style="margin-left:10px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: small;">
+                <strong>AlexJoy</strong> Wow <i class="fa-solid fa-heart" style="color: #f77408;"></i> <br>
+                View all 105 comments <br>
+                12hr ago
+            </p>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="card-body">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.morganstanley.com/content/dam/msdotcom/people/tiles/wided-sghaier.jpg.img.490.medium.jpg/1594912196352.jpg"
+                    alt="" width="40" height="40" class="rounded-pill">
+            </a>
+            <span
+                style="font-weight: 500; margin-left: 10px;font-size: 15px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                Annie_Paul</span>
+            <!-- <p>Toronto, Canada</p> -->
+        </div>
+        <img class="card-img-bottom"
+            src="https://images.unsplash.com/photo-1483134529005-4c93495107d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&w=1000&q=80"
+            alt="Card image" style="width:100%">
+        <div class="card-text mt-2">
+            <i class="fa-regular fa-heart fa-lg"style="margin-left: 10px;"></i>
+            <i class="fa-regular fa-comment fa-lg" style="color: black; margin-left: 10px;"></i>
+            <i class="fa-solid fa-location-arrow fa-lg" style="color: #000000;margin-left: 9px;"></i>
+            <br>
+            <h4 style="font-size: small;margin-left: 10px;margin-top: 10px;">2345,98 likes</h4>
+            <h4 style="font-size: small;margin-top: 10px;margin-left: 10px;"><strong>Annie_Paul </strong><span
+                    style="font-size: small;font-weight: 400;">Make it work, make it right, make it fast.</span></h4>
+            <p
+                style="margin-left:10px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: small;">
+                
+                View all 2.75k comments <br>
+                13hr ago
+            </p>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="card-body">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywvQPeuxf1zt5TdhvXqp4Kz0eAKZhm6WxqQ&usqp=CAU"
+                    alt="" width="40" height="40" class="rounded-pill">
+            </a>
+            <span
+                style="font-weight: 500; margin-left: 10px;font-size: 15px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                Maxwell_George</span>
+            <!-- <p>Toronto, Canada</p> -->
+        </div>
+        <img class="card-img-bottom"
+            src="https://wallpapers.com/images/hd/aesthetic-food-pictures-907-x-900-fv9mjo37wrkjzjda.jpg"
+            alt="Card image" style="width:100%">
+        <div class="card-text mt-2">
+            <i class="fa-solid fa-heart fa-lg" style="color: #e61700;margin-left: 10px;"></i>
+            <i class="fa-regular fa-comment fa-lg" style="color: black; margin-left: 10px;"></i>
+            <i class="fa-solid fa-location-arrow fa-lg" style="color: #000000;margin-left: 9px;"></i>
+            <br>
+            <h4 style="font-size: small;margin-left: 10px;margin-top: 10px;">2345,98 likes</h4>
+            <h4 style="font-size: small;margin-top: 10px;margin-left: 10px;"><strong>Maxwell_George </strong><span
+                    style="font-size: small;font-weight: 400;">All we need is HEALTHY FOOD.<i class="fa-solid fa -lg fa-utensils" style="color: #B197FC;"></i></span></h4>
+            <p
+                style="margin-left:10px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: small;">
+                
+                View all 2.5k comments <br>
+                15hr ago
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
